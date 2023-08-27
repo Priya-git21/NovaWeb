@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91961fe0.css",
+    "main.js": "/static/js/main.3ba5c340.js",
+    "static/media/word counter.png": "/static/media/word counter.0625962e76655390bad6.png",
+    "static/media/my portfolio.png": "/static/media/my portfolio.1c6bddfe10de04295a12.png",
+    "static/media/cosmic chronicles.png": "/static/media/cosmic chronicles.f452a43c60e4b054e73c.png",
+    "static/media/astro foods.png": "/static/media/astro foods.64585ae74c6c99c91695.png",
+    "static/media/pxfuel.jpg": "/static/media/pxfuel.342ee2d6f23f7a5a43c6.jpg",
+    "static/media/Me.png": "/static/media/Me.51e3f422cc69d7780237.png",
+    "static/media/Priya Makkar.pdf": "/static/media/Priya Makkar.00f7985ae27efa4fc26a.pdf",
+    "static/media/invoice generator.png": "/static/media/invoice generator.072d81e6b04bde5e9935.png",
+    "static/media/text formatter.png": "/static/media/text formatter.0e7474e43fa1ac1819d6.png",
+    "static/media/background.jpeg": "/static/media/background.bf4e67440ecc976b6016.jpeg",
+    "index.html": "/index.html",
+    "main.91961fe0.css.map": "/static/css/main.91961fe0.css.map",
+    "main.3ba5c340.js.map": "/static/js/main.3ba5c340.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91961fe0.css",
+    "static/js/main.3ba5c340.js"
+  ]
+}
