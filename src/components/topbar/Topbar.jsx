@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
@@ -10,6 +10,31 @@ import "./topbar.css";
 
 const Topbar = () => {
   const [activeNav, setActiveNav] = useState("#home");
+
+  const handleScroll = () => {
+    const sections = ["home", "about", "experience", "portfolio", "contact", "footer"];
+    const sectionTops = sections.map((id) => ({
+      id,
+      top: document.getElementById(id)?.offsetTop,
+    }));
+
+    const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+    for (const section of sectionTops) {
+      if (scrollPosition >= section.top) {
+        setActiveNav(`#${section.id}`);
+      }
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <nav>
       <a
